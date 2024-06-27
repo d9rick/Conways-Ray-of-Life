@@ -279,7 +279,7 @@ int main(void)
     SetTargetFPS(60);
 
     // create board
-    Board* board = testBoard("checkerboard");
+    Board* board = createBoard(10, 10);
     if (!board) {
         fprintf(stderr, "Failed to create test board! Aborting.");
         exit(EXIT_FAILURE);
