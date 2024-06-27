@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/my_raylib_game.dir/sources/main.c.o -o my_raylib_game  _deps/raylib-build/raylib/libraylib.a -lm -lpthread -lOpenGL -lGLX -Wl,-Bstatic -lrt -Wl,-Bdynamic -lm -ldl

@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/Conways_Ray_of_Life.dir/sources/button.c.o CMakeFiles/Conways_Ray_of_Life.dir/sources/main.c.o -o Conways_Ray_of_Life  _deps/raylib-build/raylib/libraylib.a -lm -lpthread -lOpenGL -lGLX -Wl,-Bstatic -lrt -Wl,-Bdynamic -lm -ldl
